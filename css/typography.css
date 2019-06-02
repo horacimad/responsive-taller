@@ -1,0 +1,35 @@
+body {
+  font-size: 1rem;
+  line-height: 1.2;
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: calc(1.25rem + 1.5vw);
+  color: blue;
+}
+
+h2 {
+  font-size: calc(1rem + 1.5vw);
+  color: black;
+}
+
+li {
+font-size: calc(0.75rem + 1vw);
+}
+
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1rem);
+    color: soft-blue;
+    font-weight: 600;
+  }
+
+  li {
+  font-size: 1rem;
+  }
+
+}
